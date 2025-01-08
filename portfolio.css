@@ -11,7 +11,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10px 50px;
+    margin: 10px 100px;
 }
 nav ul{
     display: flex;
@@ -28,8 +28,9 @@ nav li a{
 }
 .nav-title
 {
-    font-weight: 800px;
+    font-weight: 800;
     font-size: 45px;
+  
 }
 .dark2{
     color: #474747;
@@ -46,4 +47,36 @@ nav li a{
 }
 .change-clr{
     color: #FD6E0A;
+}
+/* From here the bannner related work's started */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 150px;
+}
+.banner-greetings{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.banner-title{
+    margin-top: 0px;
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-content{
+    max-width: 500px;
+}
+.DownloadCv{
+    margin-top: 10px;
+    background-color: #FD6E0A;
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 15px;
+
 }
