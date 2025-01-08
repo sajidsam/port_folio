@@ -1,0 +1,49 @@
+.open-sans-normal-fonts {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-title
+{
+    font-weight: 800px;
+    font-size: 45px;
+}
+.dark2{
+    color: #474747;
+}
+.button-clr{
+    background-color: #FD6E0A;
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+.change-clr{
+    color: #FD6E0A;
+}
