@@ -129,7 +129,7 @@ main {
 .AboutItems{
     margin-top: 60px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .about-item{
     margin-left: 0px;
@@ -143,4 +143,52 @@ main {
     font-weight: bold;
     font-size: 17px;
 
+}
+/* What i do section started */
+.whatIdo{
+
+    text-align: center;
+}
+
+/* skill div started */
+
+.skill-container{
+    margin-top: 100px;
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.title{
+    font-size: 20px;
+}
+.des{
+    color: #474747;
+}
+/* Resume div started here */
+.summary-title{
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 90px;
+}
+.resume-container{
+display: flex;
+justify-content: space-evenly;
+gap: 30px;
+}
+.Downloadbtn{
+    margin-top: 35px;
+    text-align: center;
+}
+/* Footer section started from here */
+.footer-sec{
+    margin-top: 90px;
+}
+.footer-div{
+    display: flex;
 }
